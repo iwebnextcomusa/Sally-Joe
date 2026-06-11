@@ -1,0 +1,6 @@
+{
+  "name": "iWebNext",
+  "description": "Premium 3D Scroll-Based Website featuring Sally Joe Pizza in Asbury Park, NJ, with a secure AI Chatbot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

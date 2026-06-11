@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iWebNext</title>
+    <!-- Preconnect for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Local Restaurant Schema Markup -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Sally Joe Pizza",
+        "image": "https://sallyjoepizza.com/assets/hero-pizza.jpg",
+        "telePhone": "+1-732-567-4009",
+        "email": "1800salboyd@gmail.com",
+        "url": "https://sallyjoepizza.com",
+        "menu": "https://sallyjoepizza.com/menu",
+        "servesCuisine": "Italian, Pizza",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Blocks from Asbury Park Boardwalk",
+          "addressLocality": "Asbury Park",
+          "addressRegion": "NJ",
+          "postalCode": "07712",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "40.2204",
+          "longitude": "-74.0121"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Sunday",
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday"
+            ],
+            "opens": "11:00",
+            "closes": "22:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "11:00",
+            "closes": "23:00"
+          }
+        ],
+        "sameAs": [
+          "https://www.facebook.com/sallyjoepizza",
+          "https://www.instagram.com/sallyjoepizza"
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-[#FDFCFB] text-[#1A1A1A] selection:bg-[#C82333] selection:text-white overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
